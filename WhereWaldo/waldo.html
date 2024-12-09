@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="waldo.js" defer></script>
+    <title>Where's Waldo?</title>
+</head>
+<body>
+    <div class="container">
+        <canvas id="mycanvas" width="640" height="400"></canvas>
+        <div class="menu">
+            <button id="start-btn">Play</button>
+            <button id="howTo-btn">How to Play</button>
+            <button id="backbtn" hidden>Menu</button>
+            <div class="level-buttons">
+                <button id="lvl1" hidden>Level 1</button>
+                <button id="lvl2" hidden>Level 2</button>
+                <button id="lvl3" hidden>Level 3</button>
+            </div>
+        </div>
+        <h2 id="timer" hidden>200</h2>
+    </div>
+</body>
+</html>
